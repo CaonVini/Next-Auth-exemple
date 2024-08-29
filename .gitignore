@@ -1,0 +1,54 @@
+# Dependências Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Ambiente local
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Diretórios de build e caches
+.next/
+out/
+build/
+.cache/
+.cache-loader/
+coverage/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Editor de texto
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Testes e relatórios de cobertura
+jest.config.js
+jest.setup.js
+coverage/
+.nyc_output/
+.vscode-test/
+
+# Relatórios de lint
+lint-staged.config.js
+.eslintcache
+
+# Arquivos específicos do projeto
+*.pem
+*.key
+*.crt
