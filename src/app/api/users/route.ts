@@ -8,7 +8,7 @@ export async function POST(request: NextRequest){
 
     const data = await request.json()
     const { name, email, password } = data
-    console.log("ROUTE HANDLER", data)
+    console.log("ROUTE HANDLER", data.name, data.email)
 
     if(!name || !email || !password){
         return NextResponse.json("Dados inválidos.", { status: 400})
